@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('css/posts.css') }}">
 
-    <title>Add Post</title>
+    <title>Add User</title>
 </head>
 <body>
     <div class="container">
 
-        <h1>Add New Posts</h1>
+        <h1>Add New User</h1>
         <form class="create-post" action="{{route('posts.store')}}" method="POST">
             @csrf
             <label>Name</label><br>

@@ -25,6 +25,13 @@
     text-decoration: none;
 }
 
+.alert-success{
+    margin: 1rem 0;
+    padding: 1rem;
+    background: green;
+    color: #fff;
+}
+
 .create-post, .edit-form{
     margin-top: 2rem;
     label{
