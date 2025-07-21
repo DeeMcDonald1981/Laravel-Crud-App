@@ -10,8 +10,8 @@
 <body>
     <div class="container">
 
-        <h1>Active Posts</h1>
-        <a class="add-posts" href="{{route('posts.create')}}">Add Posts</a>
+        <h1>Active Users</h1>
+        <a class="add-posts" href="{{route('posts.create')}}">Add User</a>
 
         @if(session('success'))
             <div class="alert alert-success">
